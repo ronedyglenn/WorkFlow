@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', 'Trebuchet MS', Geneva, 'Sana serif';
+    overflow-x: hidden;
+}
+
+p > span{
+    text-decoration: underline;
+    color: #0E5A9C;
+}
+
+.nav1{
+    background: #CBE0FB;
+    height: 47px;
+    padding: 0 72px;
+    align-items: center;
+    display: flex;
+    
+}
+.nav2{
+    background: #F8F8FB;
+    height: 54px;
+    padding: 0 72px;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+
+.menu{
+    display: flex;
+    border-bottom: 2px solid rgb(229, 227, 227);
+    align-items: center;
+    padding: 0 72px;
+    
+    
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 220px;
+    
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.login :last-child{
+    border-radius: 50px;
+    border: 1px solid #0E5A9C;
+}
+.menu :first-child{
+    margin-right: 15px;
+}
+
+#block1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 72px;
+    height: 553px;
+    font-family: 'Noto Sans', 'Trebuchet MS', Geneva, 'Sana serif';
+    
+
+}
+button{
+    background: #FFFFFF;
+    border: 2px solid #125A99;
+    border-radius: 50px;
+    color: #125A99;
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+}
+#block1 > .text :first-child{
+    font-size: 42px;
+    font-weight: 600;
+    /* line-height: 58.8px; */
+    
+    line-height: 58.8px;
+}
+#block1 > .text :nth-child(2){
+    font-size: 23px;
+    line-height: 32.2px;
+    margin: 15px 0;
+    
+}
+
+
+/* Le design du block2 */
+
+.item1, .item2, .item3, .item4, .item5, .item6{
+    width: 200px;
+    height: 168px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#block2{
+    background-color: #F8F8FB;
+    height: 702px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 23.5px;
+    padding: 0 72px;
+    
+    
+}
+.items{
+    display: flex;
+    gap: 25px;
+    
+}
+
+.button2{
+    width: 459px;
+}
+
+#block2 :first-child{
+    margin-bottom: 20px;
+}
+#block2 :nth-child(2){
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+
+/* Intrégration du block3 */
+
+
+#block3{
+    padding: 102px 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+    gap: 160px;
+    line-height: 24px;
+    
+}
+
+.second-row{
+    display: flex;
+    gap: 110px;
+    margin-bottom: 105px;
+    line-height: 24px;
+    
+}
+.third-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    line-height: 24px;
+    
+}
+
+.btn-1{
+    width: 286px;
+}
+.btn-2{
+    width: 334px;
+}
+.btn-3{
+    width: 231px;
+}
+
+/* stilisation des titres et des paragraphes dans les boxes */
+
+.box1 :first-child{
+    margin-bottom: 20px;
+}
+
+.box1 :nth-child(2){
+    margin-bottom: 20px;
+}
+
+
+.box4 :first-child{
+    margin-bottom: 20px;
+}
+
+.box4 :nth-child(2){
+    margin-bottom: 20px;
+}
+
+.box6 :first-child{
+    margin-bottom: 20px;
+}
+
+.box6 :nth-child(2){
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 34px;
+}
+
+/* style du block4 */
+
+#block4{
+    height: 598px;
+    background: #0E5A9C;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 60px;
+    
+}
+
+footer{
+    height: 170px;
+    background: #FFFFFF;
+
+}
+
+.boite1, .boite2,.boite3, .boite4{
+    height: 340px;
+    width: 251px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    overflow-y: hidden;
+}
+
+.boite1 :first-child{
+    margin-bottom: 5px;
+}
+.boite1 :last-child{
+    margin-top: 15px;
+}
+
+.boite2 :first-child{
+    margin-bottom: 20px;
+}
+.boite2 :last-child{
+    margin-top: 5px;
+}
+
+.boite3 :first-child{
+    margin-bottom: 168px;
+}
+
+.boite4 :first-child{
+    margin-bottom: 55px;
+}
+
+.titre{
+    position: relative;
+    left: 100px;
+    top: 150px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+/* la partie du pied de page */
+
+.part-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    
+}
+.f1{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+
+footer{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+    font-size: 14px;
+    
+
+}
+
+.f2{
+    display: flex;
+    gap: 25px;
+}
+
+.part-2{
+    margin: 0 90px;
+}
+
+
+/* animation */
+
+button:hover{
+    background-color: #aacce9;
+}
+
+p{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Noto Sans', 'Trebuchet MS', Geneva, 'sans-serif';
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+.color{
+    color: #920BA6;
+}
+
+
