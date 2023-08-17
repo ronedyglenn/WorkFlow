@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/w3c_images/w3c-no-bars.svg" type="image/x-icon">
 
     <title>W3C website</title>
 </head>
 <body>
+
+<div class="container"> 
 
     <!-- il s'agit des trois premières lignes de notre site -->
 <header>
@@ -20,7 +22,7 @@
         <p>简体中文首页</p>
     </nav>
     <section class="menu">
-        <span><img src="/w3c_images/w3c-no-bars.svg" alt="logo"></span>
+        <span><img src="w3c_images/w3c-no-bars.svg" alt="logo"></span>
         <span id="span">
             <ul>
                 <li class="menu-standards"><a href="#">Standards</a></li>
@@ -29,13 +31,13 @@
                 <li><a href="#">Resources</a></li>
                 <li><a href="#">News and events</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#"><img src="/w3c_images/search.svg" alt="search-icon"></a></li>
+                <li><a href="#"><img src="w3c_images/search.svg" alt="search-icon"></a></li>
             </ul>
         </span>
         
         <span class="login">
             <p>Sign in</p>
-            <img src="/w3c_images/avatar.svg" alt="log-icon" width="30px">
+            <img src="w3c_images/avatar.svg" alt="log-icon" width="30px">
         </span>
     </section>
 </header>
@@ -53,7 +55,7 @@
         <button type="btn">Read more about W3C</button>
     </section>
     <section class="image1">
-        <img src="/w3c_images/groups.svg" alt="image_groups">
+        <img src="w3c_images/groups.svg" alt="image_groups">
     </section>
 </div>
 
@@ -70,12 +72,12 @@
         community, focus on a range of business ecosystems that the Web transforms, <br>
         including E-commerce, Media & Entertainment, Publishing and several other areas.</p>
     <section class="items">
-        <nav class="item1"><img src="/w3c_images/125356.png" alt="logo-sponsor" width="150px" height="68px"></nav>
-        <nav class="item2"><img src="/w3c_images/9848.png" alt="logo-sponsor" width="141px" height="78px"></nav>
-        <nav class="item3"><img src="/w3c_images/125217.png" alt="logo-sponsor" width="157px" height="157px"></nav>
-        <nav class="item4"><img src="/w3c_images/38525.png" alt="logo-sponsor" width="168px" height="84px"></nav>
-        <nav class="item5"><img src="/w3c_images/42051.png" alt="logo-sponsor" width="151px" height="96px"></nav>
-        <nav class="item6"><img src="/w3c_images/117162.png" alt="logo-sponsor" width="146px" height="55.24px"></nav>
+        <nav class="item1"><img src="w3c_images/125356.png" alt="logo-sponsor" width="150px" height="68px"></nav>
+        <nav class="item2"><img src="w3c_images/9848.png" alt="logo-sponsor" width="141px" height="78px"></nav>
+        <nav class="item3"><img src="w3c_images/125217.png" alt="logo-sponsor" width="150px" height="145px"></nav>
+        <nav class="item4"><img src="w3c_images/38525.png" alt="logo-sponsor" width="168px" height="84px"></nav>
+        <nav class="item5"><img src="w3c_images/42051.png" alt="logo-sponsor" width="151px" height="96px"></nav>
+        <nav class="item6"><img src="w3c_images/117162.png" alt="logo-sponsor" width="146px" height="55.24px"></nav>
     </section>
 
     <button class="button2">Discover how W3C supports these organizations</button>
@@ -103,14 +105,14 @@
             <button class="btn-1">Visit this year's event page</button>
         </nav>
         <nav class="box2">
-            <img src="/w3c_images/tpac2023-home.jpg" alt="picture1" width="505px" height="330px">
+            <img src="w3c_images/tpac2023-home.jpg" alt="picture1" width="505px" height="330px">
         </nav>
     </section>
     <!-- la deuxième partie -->
     
     <section class="second-row">
         <nav class="box3">
-            <img src="/w3c_images/ryan-quintal-US9Tc9pKNBU-unsplash.jpg" alt="picture2" width="502px" height="332px">
+            <img src="w3c_images/ryan-quintal-US9Tc9pKNBU-unsplash.jpg" alt="picture2" width="502px" height="332px">
         </nav>
         <nav class="box4">
             <h1>Web standards</h1>
@@ -129,7 +131,7 @@
 
     <section class="third-row">
         <nav class="box5">
-            <img src="/w3c_images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="picture3" width="502px" height="332px">
+            <img src="w3c_images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="picture3" width="502px" height="332px">
         </nav>
         <nav class="box6">
             <h1>Get involved</h1>
@@ -149,14 +151,17 @@
 
 <!-- Nous passons à la quatrième partie -->
 
-<section class="titre">
-    <h1>Latest news</h1>
-    <p>Latest entries from across our News, Press Releases or Blog. </p>
-</section>
+
 
 <div id="block4">
-
-      <nav class="boite1">
+    <div class="le-title">
+        <section class="titre">
+            <h1>Latest news</h1>
+            <p>Latest entries from across our News, Press Releases or Blog. </p>
+        </section>
+    </div>
+    <div class="tout">
+        <nav class="boite1">
         <h3>Draft Note: Vision for W3C</h3>
 
         <p>The Vision attempts to help <br>
@@ -203,6 +208,9 @@
             <br></h3>
             <p>News</p>
       </nav>  
+    </div>
+
+    
 </div>
 
 <footer>
@@ -218,9 +226,9 @@
         <p>System Status</p>
     </nav>
     <nav class="f2">
-        <img src="/w3c_images/mastodon.svg" alt="mastodon-image" width="20px" height="21px">
-        <img src="/w3c_images/twitter.svg" alt="twitter-image" width="20px" height="21px">
-        <img src="/w3c_images/github.svg" alt="github-image" width="20px" height="21px">
+        <img src="w3c_images/mastodon.svg" alt="mastodon-image" width="20px" height="21px">
+        <img src="w3c_images/twitter.svg" alt="twitter-image" width="20px" height="21px">
+        <img src="w3c_images/github.svg" alt="github-image" width="20px" height="21px">
         
     </nav>
     </section>
@@ -229,5 +237,6 @@
         <p>W3C® liability, trademark and permissive license rules apply.</p>
     </section>
 </footer>
+</div>
 </body>
 </html>

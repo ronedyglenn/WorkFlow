@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Noto Sans', 'Trebuchet MS', Geneva, 'Sana serif';
     overflow-x: hidden;
+    font-size: 100%;
 }
 
 p > span{
@@ -34,6 +35,7 @@ p > span{
     border-bottom: 2px solid rgb(229, 227, 227);
     align-items: center;
     padding: 0 72px;
+    
     
     
 }
@@ -123,6 +125,7 @@ button{
 .items{
     display: flex;
     gap: 25px;
+    overflow: hidden;
     
 }
 
@@ -221,13 +224,20 @@ h1{
 #block4{
     height: 598px;
     background: #0E5A9C;
+
+}
+
+.tout{
     display: flex;
     align-items: flex-end;
     justify-content: center;
     gap: 32px;
     padding-bottom: 60px;
     
+
 }
+    
+
 
 footer{
     height: 170px;
@@ -267,11 +277,9 @@ footer{
 }
 
 .titre{
-    position: relative;
-    left: 100px;
-    top: 150px;
     line-height: 50px;
     color: #FFFFFF;
+    padding: 90px 0 25px 95px;
 }
 
 /* la partie du pied de page */
@@ -331,4 +339,127 @@ h3:hover{
     color: #920BA6;
 }
 
+/* Rendons notre site responsive avec des media quaries */
 
+@media screen and (max-width: 1000px) {
+    .menu{
+        display: grid;
+        box-sizing: border-box;
+    }
+
+    #block1{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+
+    }
+    #block2{
+        margin-top: 20px;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .items{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        align-items: center;
+        height: auto;
+    }
+
+    .first-row{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .second-row{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .text{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .third-row{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+    }
+    #block3{
+        display: grid;
+        box-sizing: border-box;
+        height: auto;
+    }
+    
+    #block4{
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    .tout{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+        
+        
+    }
+
+    .container{
+        align-items: center;
+    }
+    .f1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    button{
+        margin: 0 auto;
+        width: auto;
+    }
+    .button2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    
+    
+    .items{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .part-1{
+        display: grid;
+    }
+    footer{
+        height: auto;
+    }
+
+    .tout{
+        width: auto;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .f1{
+        display: flex;
+        flex-wrap: wrap;
+
+        
+    }
+     .tout{
+        width: auto;
+        justify-content: center;
+        
+    }
+    
+    
+}
